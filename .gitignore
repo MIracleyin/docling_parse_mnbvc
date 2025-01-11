@@ -1,0 +1,5 @@
+**/*.parquet
+**/*.log
+**/__pycache__
+**/*.pyc
+**/*_docling_output
