@@ -1,0 +1,6 @@
+docling==2.15.1
+docling_core==2.14.0
+loguru==0.7.3
+pandas==2.2.3
+Pillow==11.1.0
+pyarrow==16.1.0
