@@ -43,7 +43,7 @@ class ChinaXivBlock:
             "文本": str(self.text_data),
             "图片": self.image_data,  # byte
             "处理时间": str(self.timestamp),
-            "数据类型": str(self.data_type),
+            "块类型": str(self.data_type),
             "bounding_box": None,
             "额外信息": str(self.meta_data),
         }
@@ -68,6 +68,7 @@ class ChinaXivBlock:
 =块id: {self.block_id:04}=
 文件id: {self.file_id},  块id: {self.block_id}, 处理时间: {self.timestamp}, 数据类型: {self.data_type}
 文本: {self.text_data[:100]}
+图片: {self.image_data[:100]}
 ======
     """
 
